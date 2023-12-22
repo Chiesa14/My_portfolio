@@ -224,7 +224,6 @@ article {
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
-  transition: var(--transition-2);
 }
 
 @keyframes fade {
@@ -351,7 +350,7 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   overflow: hidden;
 }
 
@@ -1350,10 +1349,6 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
-  .sidebar {
-    max-height: 140px;
-    margin-bottom: 30px;
-  }
 }
 
 /**
@@ -1421,7 +1416,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .sidebar {
-    max-height: 225px;
+    max-height: 180px;
     margin-bottom: 30px;
   }
 
